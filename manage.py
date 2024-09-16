@@ -21,8 +21,5 @@ def main():
 if __name__ == '__main__':
     main()
 
-
 """
-test init
-
-"""
+The manage.py file is a command-line utility that lets you interact with this Django project in various ways. You can read more about manage.py in the Django documentation."""
