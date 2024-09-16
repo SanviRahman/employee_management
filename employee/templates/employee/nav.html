@@ -1,0 +1,17 @@
+<h1>Are you sure you want to delete {{ employee.name }}?</h1>
+<form method="POST">
+    {% csrf_token %}
+    <div class="navbar"></div>
+        <a href="{% url 'home' %}" class="active">Home</a>
+        <a href="{% url 'add_employee' %}">Add Employee</a>
+        <a href="{% url 'update_employee' 1 %}">Update Employee</a>
+        <a href="{% url 'delete_employee' 1 %}">Delete Employee</a>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+        <h1>Welcome to Employee Management</h1>
+        <p>Use the navigation bar to manage employees.</p>
+    </div>
+</div>
+</form>

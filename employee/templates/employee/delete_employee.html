@@ -1,0 +1,6 @@
+<h1>Are you sure you want to delete {{ employee.name }}?</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Yes, Delete</button>
+</form>
